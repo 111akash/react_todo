@@ -5,7 +5,6 @@ interface AddTodoFormProps {
 }
 
 export default function AddTodoForm({ onSubmit }: AddTodoFormProps) {
-
     const [input, setInput] = useState("")
 
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
